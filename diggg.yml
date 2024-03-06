@@ -1,0 +1,10 @@
+---
+- name: playbook-1
+  hosts: all
+  tasks:
+  - name: writting my script
+    debug:
+     msg: "digambarkare"
+...     
+
+  
