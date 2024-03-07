@@ -1,16 +1,17 @@
 ---
-  - name: Adding multiple users on node servers using loop.
+  - name: installing starting nginix on node server
     hosts: all
     become: true
     tasks:
-      - name: Adding users akash, rushi, chetan and pranav.
-        user: 
-         name: "{{item}}"
-         state: present
-        with_items:
-                   - akash
-                   - rushi
-                   - chetan
-                   - pranav  
-       
-...
+    - name: update servers
+      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600 state=latest
+    - name: Install nginx on remote servers.
+      apt: 
+        name: nginix
+        state: present
+    - name: starting nginix service.
+      service:
+        name: nginix
+        state: started
+        enabled: true
+...        
