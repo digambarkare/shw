@@ -1,5 +1,5 @@
 ---
- - Name: example
+ - Name: add user
    hosts: all
    ecome: yes
    tasks:
