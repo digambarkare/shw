@@ -1,10 +1,16 @@
 ---
- - Name: add user
-   hosts: all
-   ecome: yes
-   tasks:
-    - name: Writing my first script
-      user: 
-        name: "rahul"
-...    
-
+  - name: Adding multiple users on node servers using loop.
+    hosts: all
+    become: true
+    tasks:
+      - name: Adding users akash, rushi, chetan and pranav.
+        user: 
+         name: "{{item}}"
+         state: present
+        with_items:
+                   - akash
+                   - rushi
+                   - chetan
+                   - pranav  
+       
+...
