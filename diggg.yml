@@ -1,19 +1,11 @@
 ---
- - name: playbook-1
-   hosts: all
-   become: yes
-   #vars:
-   #package: httpd
-   tasks:
-   - name: chache update
-     apt:
-      update_cache: yes
-   - name: installing nginx
-     apt:
-      name: nginx
-      state: present
-      enabled: yes
-...     
+- name: playbook-1
+  hosts: all
+  tasks:
+  - name:  Writing my first script 
+    debug:
+      msg: "{my first playbook is operational now}"
+...
 
   
 
