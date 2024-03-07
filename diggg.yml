@@ -5,6 +5,9 @@
    #vars:
    #package: httpd
    tasks:
+   - name: chache update
+     apt:
+      update_cache: yes
    - name: installing nginx
      apt:
       name: nginx
