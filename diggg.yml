@@ -1,8 +1,8 @@
 ---
  - Name: example
-  hosts: all
-  ecome: yes
-  tasks:
+   hosts: all
+   ecome: yes
+   tasks:
     - name: Writing my first script
       user: 
         name: "rahul"
