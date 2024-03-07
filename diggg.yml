@@ -1,10 +1,15 @@
 ---
 - name: playbook-1
   hosts: all
+  became: yes
+  #vars:
+  #package: httpd
   tasks:
-  - name: writting my script
-    debug:
-     msg: "digambarkare"
+  - name: installing nginx
+    apt:
+     name: nginx
+     state: present
+     enabled: yes
 ...     
 
   
