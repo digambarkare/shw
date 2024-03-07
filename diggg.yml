@@ -1,15 +1,15 @@
 ---
-- name: playbook-1
-  hosts: all
-  became: yes
-  #vars:
-  #package: httpd
-  tasks:
-  - name: installing nginx
-    apt:
-     name: nginx
-     state: present
-     enabled: yes
+ - name: playbook-1
+   hosts: all
+   became: yes
+   #vars:
+   #package: httpd
+   tasks:
+   - name: installing nginx
+     apt:
+      name: nginx
+      state: present
+      enabled: yes
 ...     
 
   
