@@ -1,18 +1,15 @@
  ---
-  - name: Installing and starting nginx server on remote servers.
+  - name: copy file from master to node server
     hosts: all
-    become: true
+    become: true 
     tasks:
-    - name: Update servers.
-      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600 state=latest 
-    - name: Install nginx on remote servers.
-      apt:
-        name: nginx
-        state: present
-
-    - name: Starting nginx service.
-      service:
-        name: nginx
-        state: started 
-        enabled: true
+    - name: copying file 
+      copy:
+        src: /home/ubuntu/ff
+        dest: /home/ubuntu
+    - name: /home/ubuntu
+        owner: root
+        mode:
+              ugo=rw
+        backup: true
 ...
