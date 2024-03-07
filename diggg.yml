@@ -1,6 +1,6 @@
 ---
  - Name: example
-   host: all
+   host : all
    become: yes
    tasks:
     - name: Writing my first script
