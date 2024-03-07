@@ -1,8 +1,8 @@
 ---
- -Name: example
-  host: all
+- Name: example
+  hosts: all
   become: yes
   tasks:
   - name: Writing my first script
      user: name = "roha" state=present
-...     
+...    
