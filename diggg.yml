@@ -1,15 +1,15 @@
  ---
-  - name: copy file from master to node server
+  - name: Copying file from master sever to node servers.
     hosts: all
-    become: true 
+    become: true
     tasks:
-    - name: copying file 
-      copy:
-        src: /home/ubuntu/ff
-        dest: /home/ubuntu
-    - name: /home/ubuntu
-        owner: root
-        mode:
-              ugo=rw
-        backup: true
+    - name: Copying Files.
+      copy: 
+       src: /home/ubuntu/akash.txt
+       dest: /home/ubuntu/
+       owner: root
+       group: ubuntu
+       mode: 
+             ugo=rw
+       backup: true 
 ...
