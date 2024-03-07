@@ -1,7 +1,7 @@
 ---
  - name: playbook-1
    hosts: all
-   became: yes
+   become: yes
    #vars:
    #package: httpd
    tasks:
@@ -13,3 +13,4 @@
 ...     
 
   
+
