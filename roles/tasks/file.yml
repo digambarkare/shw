@@ -1,0 +1,13 @@
+- name: installing nginx
+  package:
+    name: nginx
+    state: latest
+- name: copyig index.html
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+  notify:
+    - stratingnginx
+- name: print msg
+  debug:
+    msg: "{{URL}}"
