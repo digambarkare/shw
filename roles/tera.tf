@@ -11,8 +11,8 @@ terraform {
 provider "aws" {
   region = "ap-southeast-1"
   shared_config_files        = [/root/.aws/config]
-  shared_credentials_files   [/root/.aws/credentials]
-  profile = digambar
+  shared_credentials_files   =[/root/.aws/credentials]
+  profile = digambar"
 }
 # Create a instaunce
 resource "aws_instunce" "my-instaunce" {
