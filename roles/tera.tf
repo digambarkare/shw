@@ -15,7 +15,7 @@ provider "aws" {
   profile                    = "digambar"
 }
 # Create a instaunce
-resource "aws_instunce" "my-instaunce" {
+resource "aws_instance" "digu" {
   ami = "ami-0123c9b6bfb7eb962"
   instaunce_type ="t2.micro"
   key_name ="digambar"
