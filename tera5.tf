@@ -55,7 +55,7 @@ variable "key_name" {
 
 variable "tags" {
     type = map
-    desdescription = "hhh"
+    description = "hhh"
     default = {
         Name = "variable-server"
         Enviorment = "production"
