@@ -1,5 +1,5 @@
 
-# Configure the AWS Provider
+#Configure the AWS Provider
 provider "aws" {
     region = "ap-southeast-1"
     shared_config_files        = ["/root/.aws/config"]
