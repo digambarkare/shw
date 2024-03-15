@@ -38,6 +38,7 @@ provider "aws" {
   variable "tags" {
     type = map
     description = "value"
-    default = 
+    default = {
+        
     
   }
