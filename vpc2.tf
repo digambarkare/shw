@@ -52,7 +52,7 @@ resource "aws_subnet" "public_subnet1" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "public subnet"                    #name of resource
+    Name = "public subnet1"                    #name of resource
   }
 }
 
