@@ -17,6 +17,6 @@ provider "aws" {
     tags = var.tags    
   }
 
-  variable "" {
-    
+  variable "region" {
+    ty
   }
