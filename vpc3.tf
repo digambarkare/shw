@@ -42,5 +42,4 @@ resource "aws_internet_gateway" "my-igw" {
     tags = {
       Name = "IGW-1"
     }
-
-
+}
