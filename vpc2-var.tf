@@ -10,6 +10,7 @@ provider "aws" {
       name = "default"
   }
   resource "aws_instance" "my_instance_2" {
-    ami = 
+    ami = var.ami
+    
     
   }
