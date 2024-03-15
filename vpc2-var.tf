@@ -16,3 +16,4 @@ provider "aws" {
     vpc_security_group_ids = [data.aws_security_group.my_sg.id]
     tags = var.tags    
   }
+  
