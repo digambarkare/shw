@@ -46,6 +46,6 @@ provider "aws" {
   }
 
   output "aws_security_group_id {
-    value
+    value =
     
   }
