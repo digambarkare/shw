@@ -32,7 +32,7 @@ resource "aws_subnet" "my-subnet" {
 }
 
 resource "aws_route_table" "my-route" {
-  vpc_id = "vpc-0dff66d4e2b2eb47b"
+  vpc_id = "vpc-036eec5d9ad5f8b09"
   tags = {
   Name = "myvpcroute"
     }
