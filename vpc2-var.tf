@@ -48,6 +48,5 @@ provider "aws" {
   output "aws_security_group_id {
     value =data.aws_security_group.my_sg.idc
       
-    }
     
   }
