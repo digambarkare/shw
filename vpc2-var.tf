@@ -6,4 +6,4 @@ provider "aws" {
   }
 
   #data block for sg
-  data "aws_secur"
+  data "aws_"
