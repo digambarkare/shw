@@ -26,6 +26,6 @@ provider "aws" {
   variable "ami" {
     type = string
     description = "valu"
-    default = ""
+    default = "ami-0123c9b6bfb7eb962"
     
   }
