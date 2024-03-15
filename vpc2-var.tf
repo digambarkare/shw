@@ -42,5 +42,4 @@ provider "aws" {
         Name = "jarvis-demo"
         Enviorment = production
         Project = xyz
-    
-  }
+    }
