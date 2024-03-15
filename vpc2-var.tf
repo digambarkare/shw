@@ -6,6 +6,6 @@ provider "aws" {
   }
 
   #data block for sg
-  data "aws_security_group" "name" {
+  data "aws_security_group" "" {
     
   }"aws_"
