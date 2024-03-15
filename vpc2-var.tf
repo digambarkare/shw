@@ -45,6 +45,6 @@ provider "aws" {
     }
   }
 
-  output " {
+  output "aws_se {
     
   }
