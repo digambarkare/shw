@@ -40,7 +40,7 @@ provider "aws" {
     description = "value"
     default = {
         Name = "jarvis-demo"
-        Enviorment = production
+        Enviorment = "production"
         Project = xyz
     }
   }
