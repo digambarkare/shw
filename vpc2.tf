@@ -34,7 +34,7 @@ resource "aws_internet_gateway" "demo-igw1" {
 } 
 
 #create route table for VPC 
-resource "aws_route_table" "route-table" {
+resource "aws_route_table" "route-table1" {
   vpc_id = aws_vpc.demo-vpc.id
   route {
     cidr_block = "0.0.0.0/0"
