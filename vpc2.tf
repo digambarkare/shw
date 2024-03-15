@@ -45,7 +45,7 @@ resource "aws_route_table" "route-table1" {
   }
 }
 
-resource "aws_subnet" "public_subnet" {
+resource "aws_subnet" "public_subnet1" {
   vpc_id = aws_vpc.demo-vpc.id           #it is an vpc id under which VPC we create subnet & it is we define dynamic variable value in our terr. script bcz we dont know name of VPC it will directly create when vpc created.
   cidr_block = "10.0.1.0/24"
   availability_zone = "ap-southeast-1"
