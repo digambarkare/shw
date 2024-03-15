@@ -16,7 +16,7 @@ provider "aws" {
     vpc_security_group_ids = [data.aws_security_group.my_sg.id]
     tags = var.tags    
   }
--
+
   variable "region" {
     type = string
     description = "value"
@@ -41,6 +41,6 @@ provider "aws" {
     default = {
         Name = "jarvis-demo"
         Enviorment = production
-        Project _
+        Project 
     
   }
