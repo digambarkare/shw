@@ -80,7 +80,7 @@ resource "aws_route_table" "demo-pvt-rt1" {
     gateway_id = "local"
   }
   tags = {
-    Name = "pvt-rt"
+    Name = "pvt-rt1"
   }
 }
 
