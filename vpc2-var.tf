@@ -6,6 +6,6 @@ provider "aws" {
   }
 
   #data block for sg
-  datadata "" "name" {
+  data "" "name" {
     
   }"aws_"
