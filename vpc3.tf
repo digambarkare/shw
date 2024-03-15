@@ -36,5 +36,4 @@ resource "aws_vpc" "myvpc" {
     tags = {
       Name = "myvpcroute"
     }
-  
 }
