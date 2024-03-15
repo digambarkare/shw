@@ -6,4 +6,4 @@ provider "aws" {
   }
 
   #data block for sg
-  data 
+  data "aws_se"
