@@ -34,4 +34,7 @@ provider "aws" {
     description = "value"
     default = "t2.micro"
   }
-  
+
+  variable "" {
+    
+  }
