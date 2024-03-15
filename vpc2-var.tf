@@ -9,3 +9,6 @@ provider "aws" {
   data "aws_security_group" "my_sg" {
       name = "default"
   }
+  resource "" "name" {
+    
+  }
