@@ -40,6 +40,6 @@ provider "aws" {
     description = "value"
     default = {
         Name = "jarvis-demo"
-        Enviorment
+        Enviorment = P
     
   }
