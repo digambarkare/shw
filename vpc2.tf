@@ -84,7 +84,7 @@ resource "aws_route_table_association" "demo_pvt_subnet_association1" {
 
 #security group
 resource "aws_security_group" "demo-vpc-sg1/" {
-  name   = "demo-vpc-sg"
+  name   = "demo-vpc-sg1"
   vpc_id = aws_vpc.demo-vpc.id  
 
   ingress {                               #incoming
