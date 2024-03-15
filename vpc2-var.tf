@@ -29,6 +29,6 @@ provider "aws" {
     default = "ami-0123c9b6bfb7eb962"
   }
 
-  variable "" {
+  variable "instance_type" {
     
   }
