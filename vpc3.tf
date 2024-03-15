@@ -31,3 +31,10 @@ resource "aws_vpc" "myvpc" {
 }
 
 
+ resource "aws_route_table" "my-route" {
+#     vpc_id = "vpc-0dff66d4e2b2eb47b"
+#     tags = {
+#       Name = "myvpcroute"
+#     }
+  
+# }
