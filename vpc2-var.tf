@@ -7,6 +7,6 @@ provider "aws" {
 
   #data block for sg
   data "aws_security_group" "my_sg" {
-        
+      name = "defa"
     
   }"aws_"
