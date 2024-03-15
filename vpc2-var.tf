@@ -1,9 +1,13 @@
-# provider "aws" {
-#     region = "ap-southeast-1"
-#     shared_config_files        = ["/root/.aws/config"]
-#     shared_credentials_files   =["/root/.aws/credentials"]
-#     profile                    = "digambar"
-#   }
+
+
+
+
+provider "aws" {
+    region = "ap-southeast-1"
+    shared_config_files        = ["/root/.aws/config"]
+    shared_credentials_files   =["/root/.aws/credentials"]
+    profile                    = "digambar"
+  }
 
   #data block for sg
   data "aws_security_group" "my_sg" {
