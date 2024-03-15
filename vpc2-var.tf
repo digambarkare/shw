@@ -45,4 +45,6 @@ provider "aws" {
     }
   }
 
-  
+  output "name" {
+    
+  }
