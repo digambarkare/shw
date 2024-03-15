@@ -108,7 +108,7 @@ resource "aws_security_group" "demo-vpc-sg/" {
     cidr_blocks= ["0.0.0.0/0"]
   }
   tags = {
-    Name = "allow_tls"
+    Name = "allow_tls1"
   }
 }
 
