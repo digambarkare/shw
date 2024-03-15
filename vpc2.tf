@@ -91,7 +91,7 @@ resource "aws_route_table_association" "demo_pvt_subnet_association1" {
   }
 
 #security group
-resource "aws_security_group" "demo-vpc-sg1" {
+resource "aws_security_group" "demo-vpc-sg1/" {
   name   = "demo-vpc-sg"
   vpc_id = aws_vpc.demo-vpc.id  
 
