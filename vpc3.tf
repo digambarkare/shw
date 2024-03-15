@@ -22,7 +22,7 @@ resource "aws_vpc" "myvpc" {
 }
 
 resource "aws_subnet" "my-subnet" {
-  vpc_id = "vpc-036eec5d9ad5f8b09"
+   vpc_id = "vpc-036eec5d9ad5f8b09"
   cidr_block = "10.0.0.0/24"
   availability_zone_id = "use2-az1"
   map_public_ip_on_launch = true
