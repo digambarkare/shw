@@ -5,4 +5,5 @@ provider "aws" {
     profile                    = "digambar"
   }
 
-  #data block 
+  #data block for sg
+  data 
