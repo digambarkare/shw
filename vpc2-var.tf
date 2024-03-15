@@ -45,6 +45,7 @@ provider "aws" {
     }
   }
 
-  output "aws_security_group_ {
+  output "aws_security_group_id {
+    valu
     
   }
