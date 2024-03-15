@@ -23,6 +23,8 @@ provider "aws" {
     default = "ap-southeast-1"
   }
 
-  variable "a" {
+  variable "ami" {
+    type = string
+    
     
   }
