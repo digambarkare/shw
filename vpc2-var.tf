@@ -43,3 +43,6 @@ provider "aws" {
         Enviorment = production
         Project = xyz
     }
+  }
+
+  
