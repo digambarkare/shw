@@ -9,6 +9,6 @@ provider "aws" {
   data "aws_security_group" "my_sg" {
       name = "default"
   }
-  resource "aws_i" "name" {
+  resource "aws_instance" "name" {
     
   }
