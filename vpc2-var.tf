@@ -12,7 +12,7 @@ provider "aws" {
   resource "aws_instance" "my_instance_2" {
     ami = var.ami
     instance_type = var.instance_type
-    key_name = var
+    key_name = var.key_name
     vpc_security_group_ids = [data.aws_security_group.my_sg.id]
     tags = var.tags    
   }
