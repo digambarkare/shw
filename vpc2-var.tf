@@ -35,6 +35,7 @@ provider "aws" {
     default = "t2.micro"
   }
 
-  variable "" {
+  variable "tags" {
+    
     
   }
