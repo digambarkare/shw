@@ -85,7 +85,7 @@ resource "aws_route_table" "demo-pvt-rt1" {
 }
 
 #associate pvt subnet with route table
-resource "aws_route_table_association" "demo_pvt_subnet_association" {
+resource "aws_route_table_association" "demo_pvt_subnet_association1" {
   subnet_id = aws_subnet.pvt_subnet.id 
   route_table_id = aws_route_table.demo-pvt-rt.id
   }
