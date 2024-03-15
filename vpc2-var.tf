@@ -14,5 +14,5 @@ provider "aws" {
     instance_type = var.instance_type
     key_name = var.key_name
     vpc_security_group_ids = [data.aws_security_group.my_sg.id]
-    tags = var    
+    tags = var.tags    
   }
