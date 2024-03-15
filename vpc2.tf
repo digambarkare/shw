@@ -15,7 +15,7 @@ provider "aws" {
     profile                    = "digambar"
   }
 #create VPC
-resource "aws_vpc" "demo-vpc" {
+resource "aws_vpc" "demo-vpc1" {
   cidr_block = "10.0.0.0/16"          #Set your desired CIDR block for the VPC
   enable_dns_support = true
   enable_dns_hostnames = true
