@@ -23,4 +23,6 @@ provider "aws" {
     default = "ap-southeast-1"
   }
 
-  var
+  variable "a" {
+    
+  }
