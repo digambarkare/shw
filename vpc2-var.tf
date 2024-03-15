@@ -46,6 +46,8 @@ provider "aws" {
   }
 
   output "aws_security_group_id {
-    value =data.aws_security_group.mysg.id
+    value =data.aws_security_group.mysg.idcheck 
+      
+    }
     
   }
