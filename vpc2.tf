@@ -26,10 +26,10 @@ resource "aws_vpc" "demo-vpc1" {
 }
 
 #create gateway
-resource "aws_internet_gateway" "demo-igw" {
+resource "aws_internet_gateway" "demo-igw1" {
   vpc_id = aws_vpc.demo-vpc.id         #dynamic variable value
   tags = {
-    Name = "demo-igw"
+    Name = "demo-igw1"
   }
 } 
 
