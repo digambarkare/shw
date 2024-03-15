@@ -36,6 +36,7 @@ provider "aws" {
   }
 
   variable "tags" {
-    type = 
+    type = map
+    
     
   }
