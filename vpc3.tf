@@ -27,7 +27,7 @@ resource "aws_vpc" "myvpc" {
    availability_zone_id = "use2-az1"
    map_public_ip_on_launch = true
    tags = {
-     Name = "mysubnet"
+    Name = "mysubnet"
   }
 }
 
