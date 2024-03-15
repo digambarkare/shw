@@ -11,6 +11,7 @@ provider "aws" {
   }
   resource "aws_instance" "my_instance_2" {
     ami = var.ami
-    instance_type = var.inst
+    instance_type = var.instance_type
+    key_name = 
     
   }
