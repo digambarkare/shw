@@ -28,4 +28,7 @@ provider "aws" {
     description = "valu"
     default = "ami-0123c9b6bfb7eb962"
   }
-  
+
+  variable "" {
+    
+  }
