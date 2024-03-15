@@ -39,6 +39,6 @@ provider "aws" {
     type = map
     description = "value"
     default = {
-        
+        Name = "diga"
     
   }
