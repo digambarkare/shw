@@ -22,3 +22,5 @@ provider "aws" {
     description = "value"
     default = "ap-southeast-1"
   }
+
+  var
