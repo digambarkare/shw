@@ -34,7 +34,7 @@ resource "aws_route_table" "route-table" {
 resource "aws_subnet" "public_subnet" {
   vpc_id = aws_vpc.demo-vpc.id           #it is an vpc id under which VPC we create subnet & it is we define dynamic variable value in our terr. script bcz we dont know name of VPC it will directly create when vpc created.
   cidr_block = "10.0.1.0/24"
-  availability_zone = "us-east-1a" 
+  availability_zone = "ap-southeast-1"
   map_public_ip_on_launch = true
 
   tags = {
@@ -51,7 +51,7 @@ resource "aws_route_table_association" "demo-rt_association" {
 resource "aws_subnet" "pvt_subnet" {
   vpc_id = aws_vpc.demo-vpc.id           
   cidr_block = "10.0.2.0/24"
-  availability_zone = "us-east-1a" 
+  availability_zone = "ap-southeast-1" 
 
   tags = {
     Name = "pvt subnet"                    
