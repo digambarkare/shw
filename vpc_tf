@@ -125,17 +125,28 @@ resource "aws_security_group" "demo-vpc-sg" {
   }
 }
 
-resource "aws_instance" "demo-server" {
-  ami = "ami-0123c9b6bfb7eb962"
-  key_name = "digambar"
-  instance_type = "t2.micro"
-  subnet_id = aws_subnet.public_subnet.id
-  vpc_security_group_ids = [aws_security_group.demo-vpc-sg.id]
-  tags = {
-        Name = "public instance"                           
-        Enviornment = "staging"
-        Project = "xyz"
-    }
+# resource "aws_instance" "demo-server" {
+#   ami = "ami-0123c9b6bfb7eb962"
+#   key_name = "digambar"
+#   instance_type = "t2.micro"
+#   subnet_id = aws_subnet.public_subnet.id
+#   vpc_security_group_ids = [aws_security_group.demo-vpc-sg.id]
+#   tags = {
+#         Name = "public instance"                           
+#         Enviornment = "staging"
+#         Project = "xyz"
+#     }
+# }
+
+
+#Create a instaunce
+ resource "aws_instance" "digu" {
+   ami = "ami-0123c9b6bfb7eb962"
+   instance_type ="t2.micro"
+   key_name ="digambar"
+   tags = {
+     Name = "jarvis-server"
+     Enviorment ="staging"
+     Project ="xyz"
+   }
 }
-
-
