@@ -73,7 +73,7 @@ resource "aws_route_table_association" "demo-rt_association1" {
 # }
 
 #create route table pvt subnet 
-resource "aws_route_table" "demo-pvt-rt" {
+resource "aws_route_table" "demo-pvt-rt1" {
   vpc_id = aws_vpc.demo-vpc.id
   route {
     cidr_block = "0.0.0.0/0"
