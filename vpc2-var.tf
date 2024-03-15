@@ -45,6 +45,6 @@ provider "aws" {
     }
   }
 
-  output "aws_security {
+  output "aws_security_group_ {
     
   }
