@@ -32,6 +32,6 @@ provider "aws" {
   variable "instance_type" {
     type = string
     description = "value"
-    default = "t"
+    default = "t2.micro"
     
   }
