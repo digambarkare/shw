@@ -1,3 +1,5 @@
+
+
 #create VPC
 resource "aws_vpc" "demo-vpc" {
   cidr_block = "10.0.0.0/16"          #Set your desired CIDR block for the VPC
@@ -25,7 +27,7 @@ resource "aws_route_table" "route-table" {
     gateway_id = aws_internet_gateway.demo-igw.id
   }
   tags = {
-    Name = "route-table-dhananjay"
+    Name = "route-table-digambar"
   }
 }
 
@@ -107,7 +109,7 @@ resource "aws_security_group" "demo-vpc-sg" {
 
 
 #Create a instaunce
- resource "aws_instance" "digu" {
+ resource "aws_instance" "diguu" {
    ami = "ami-0123c9b6bfb7eb962"
    instance_type ="t2.micro"
    key_name ="digambar"
