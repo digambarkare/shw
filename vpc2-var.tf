@@ -39,6 +39,7 @@ provider "aws" {
     type = map
     description = "value"
     default = {
-        Name = ""
+        Name = "jarvis-demo"
+        Enviorment
     
   }
