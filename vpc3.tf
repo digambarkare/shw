@@ -7,7 +7,7 @@ provider "aws" {
   }
 
   resource "aws_instance" "vpc-1" {
-    ami = "ami-0123c9b6bfb7eb962
+    ami = "ami-0123c9b6bfb7eb962"
     instance_type = "t2.micro"
     key_name = "pair" 
     tags = {
