@@ -18,5 +18,6 @@ provider "aws" {
   }
 
   variable "region" {
-    ty
+    type = string
+    
   }
