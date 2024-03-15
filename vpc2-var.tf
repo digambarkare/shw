@@ -36,6 +36,6 @@ provider "aws" {
   }
 
   variable "tags" {
-    
+    type = 
     
   }
