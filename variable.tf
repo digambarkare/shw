@@ -30,7 +30,7 @@
 # }
 
 # variable "region" {
-#     type = string
+    # type = string
 #     description = "here i am using "
 #     default = "ap-southeast-1"
 # }
