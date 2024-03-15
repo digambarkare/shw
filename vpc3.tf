@@ -38,9 +38,9 @@ resource "aws_vpc" "myvpc" {
     }
 }
 resource "aws_internet_gateway" "my-igw" {
-#     vpc_id = "vpc-0dff66d4e2b2eb47b"
-#     tags = {
-#       Name = "IGW-1"
-#     }
+    vpc_id = vpc-0dff66d4e2b2eb47b"
+    tags = {
+      Name = "IGW-1"
+    }
 
 
