@@ -56,7 +56,7 @@ provider "aws" {
     }
   }
 
-  variable "key" {
+  variable "k" {
     
   }
 
