@@ -1,6 +1,6 @@
 variable "ami" {
     type = string
-    description = "value"
+
     
 }
 
