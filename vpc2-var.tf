@@ -59,6 +59,7 @@ provider "aws" {
   variable "key_name" {
     type = string
     description = "value1"
+    default = "value"
     
   }
 
