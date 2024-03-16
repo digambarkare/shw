@@ -32,7 +32,7 @@ variable "tags" {
     type = map
     description = "hhh"
     default = {
-        Name = "variable-server"
+        Name = "variable"
         Enviorment = "production"
         Project = "xyz"
     }
