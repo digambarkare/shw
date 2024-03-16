@@ -55,7 +55,10 @@ provider "aws" {
         Project = "xyz"
     }
   }
-  
+
+  variable "ke" {
+    
+  }
 
   output "ws_security_group_id" {
     value =data.aws_security_group.my_sg.id
