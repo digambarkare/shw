@@ -1,8 +1,4 @@
-variable "profile" {
-    default = "digambar"
-    type = string
-   
-}
+
 
 variable "region" {
     type = string
