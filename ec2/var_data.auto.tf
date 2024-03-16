@@ -2,7 +2,7 @@
 
 region = "ap-southeast-1"
 
-ami = "ami-0d77c9d87c7e619f9"
+ami = "ami-"ami-0123c9b6bfb7eb962"
 
 instance_type = "t3.micro"
 
