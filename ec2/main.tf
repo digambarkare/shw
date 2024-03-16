@@ -17,7 +17,16 @@ provider "aws" {
 }
 
 terraform {
-  
+  backend "s3" {
+    bucket         	   = "prod-terraform.tfstate-b2025"
+    key                = "terraform.tfstate"
+    region         	   = "ap-south-1"
+    encrypt        	   = true
+    dynamodb_table = "terraform-b2025"
+  }
+}
+
+
 }
 #create instunce
 resource "aws_instance" "rohhi22" {
