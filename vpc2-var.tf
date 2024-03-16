@@ -59,9 +59,8 @@ provider "aws" {
   variable "key_name" {
     type = string
     description = "value1"
-    default = "value"
-    
-  }
+    default = "digambar"
+    }
 
   output "ws_security_group_id" {
     value =data.aws_security_group.my_sg.id
