@@ -10,3 +10,4 @@ key_name = "digambar"
 
 tags = {
     Name = "ubuntu"
+    E
