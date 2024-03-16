@@ -19,7 +19,7 @@ terraform {
   backend "s3" {
     bucket         	   = "jdijdijdij"
     key                = "terraform.tfstate"
-    region         	   = " ap-southeast-1"
+    region         	   = ""
     encrypt        	   = true
     dynamodb_table = "tera-tabale"
   }
