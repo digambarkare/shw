@@ -31,11 +31,7 @@ variable "key_name" {
 variable "tags" {
     type = map
     description = "hhh"
-    default = {
-        Name = "variable"
-        Enviorment = "production"
-        Project = "xyz"
-    }
+   }
 }            
 
   
