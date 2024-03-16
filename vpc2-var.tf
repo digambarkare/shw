@@ -60,7 +60,7 @@ provider "aws" {
     type = string
     description = "value1"
     default = "digambar"
-    }
+     }
 
   output "ws_security_group_id" {
     value =data.aws_security_group.my_sg.id
