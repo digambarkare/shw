@@ -1,5 +1,7 @@
 profile = "digambar"
 
-region = 
+region = ap-southeast-1
+
+ami
 
 }
