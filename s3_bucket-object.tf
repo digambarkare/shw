@@ -1,3 +1,4 @@
+
 resource "aws_s3_bucket" "mybucket-1" {
      bucket = "myspecialbucklletyomi"
        tags = {
