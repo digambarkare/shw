@@ -1,9 +1,3 @@
-variable "region" {
-    type = string
-    description = "here i am using "
-    
-}
-
 variable "ami" {
     type = string
     description = "value"
