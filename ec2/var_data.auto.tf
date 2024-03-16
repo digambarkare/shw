@@ -1,6 +1,6 @@
 profile = "digambar"
 
-region = "us-east-1"
+region = ""
 
 ami = "ami-0123c9b6bfb7eb962"
 
