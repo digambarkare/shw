@@ -15,3 +15,11 @@ provider "aws" {
   shared_credentials_files   =["/root/.aws/credentials"]
   profile                    = "digambar"
 }
+
+# #create instunce
+# resource "aws_instance" "rohhi" {
+#     ami = var.ami
+#     instance_type = var.instance_type
+#     key_name = var.key_name
+#     tags = var.tags
+# }
