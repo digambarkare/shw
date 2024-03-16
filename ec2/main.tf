@@ -27,7 +27,7 @@ terraform {
 }
 
 #create instunce
-resource "aws_instance" "rohhi22" {
+resource "aws_instance" "instance4" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_name
