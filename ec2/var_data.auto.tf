@@ -10,4 +10,4 @@ key_name = "digambar"
 
 tags = {
     Name = "ubuntu"
-    Enviorment =
+    Enviorment = "production"
