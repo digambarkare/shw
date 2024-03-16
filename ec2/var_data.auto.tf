@@ -6,6 +6,6 @@
 
 # key_name = "digambar"
 
-# tags = {
-#     Name = ubuntu
-# }
+tags = {
+    Name = ubuntu
+}
