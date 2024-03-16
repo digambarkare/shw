@@ -56,7 +56,8 @@ provider "aws" {
     }
   }
 
-  variable "k" {
+  variable "key_name" {
+    ty
     
   }
 
