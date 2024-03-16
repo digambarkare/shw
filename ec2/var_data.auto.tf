@@ -1,4 +1,4 @@
-# profile = "omi"
+ profile = "omi"
 
 region = "ap-southeast-1"
 
