@@ -17,7 +17,7 @@ provider "aws" {
 }
 
 #create instunce
-resource "aws_instance" "rohhi" {
+resource "aws_instance" "rohhi22" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_name
