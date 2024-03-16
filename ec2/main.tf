@@ -26,8 +26,6 @@ terraform {
   }
 }
 
-
-}
 #create instunce
 resource "aws_instance" "rohhi22" {
     ami = var.ami
