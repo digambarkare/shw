@@ -1,6 +1,6 @@
 # profile = "omi"
 
-region = "us-east-2"
+region = ""
 
 ami = "ami-0d77c9d87c7e619f9"
 
