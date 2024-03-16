@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "tags" {
     type = map
-    description = "hhh"
+    
    }
            
 
