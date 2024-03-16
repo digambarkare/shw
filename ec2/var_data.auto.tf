@@ -1,3 +1,3 @@
 profile = "digambar"
 region = "ap-southeast-1"
-ami = ""
+ami = "ami-0123c9b6bfb7eb962"
