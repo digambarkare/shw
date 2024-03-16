@@ -13,13 +13,13 @@ variable "region" {
 variable "ami" {
     type = string
     description = "value"
-    default = "ami-0123c9b6bfb7eb962"
+    
 }
 
 variable "instance_type" {
     type = string
     description = "value"
-    default = "t2.micro"
+   
 }
 
 variable "key_name" {
