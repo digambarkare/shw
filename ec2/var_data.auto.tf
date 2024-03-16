@@ -1,11 +1,11 @@
-profile = "digambar"
+# profile = "digambar"
 
-region = "ap-southeast-1"
+# region = "ap-southeast-1"
 
-ami = "ami-0123c9b6bfb7eb962"
+# ami = "ami-0123c9b6bfb7eb962"
 
-key_name = "digambar"
+# key_name = "digambar"
 
-tags = {
-    Name = ubuntu
-}
+# tags = {
+#     Name = ubuntu
+# }
