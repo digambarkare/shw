@@ -6,7 +6,7 @@ ami = "ami-0123c9b6bfb7eb962"
 
 instance_type = "t2.micro"
 
-key_name = "windows_global_key"
+key_name = "digambar2"
 
 tags = {
     Name = "Redhat-server"
