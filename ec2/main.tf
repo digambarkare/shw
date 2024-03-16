@@ -22,7 +22,7 @@ terraform {
     key                = "terraform.tfstate"
     region         	   = " ap-southeast-1"
     encrypt        	   = true
-    dynamodb_table = ""
+    dynamodb_table = "tera-tabale"
   }
 }
 
