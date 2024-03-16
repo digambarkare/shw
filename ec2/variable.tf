@@ -7,7 +7,7 @@ variable "profile" {
 variable "region" {
     type = string
     description = "here i am using "
-    default = "ap-southeast-1"
+    
 }
 
 variable "ami" {
