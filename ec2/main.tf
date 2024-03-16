@@ -16,6 +16,7 @@ provider "aws" {
   profile                    = "digambar"
 }
 
+t
 #create instunce
 resource "aws_instance" "rohhi22" {
     ami = var.ami
