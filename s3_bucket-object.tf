@@ -11,5 +11,5 @@
 # resource "aws_s3_object" "my_object" {
 #   bucket = aws_s3_bucket.my_bucket.id  # Reference to the bucket created above
 #   key    = "tfstate/terraform.tfstate"        # Key (name) of the object in the bucket
-#   source = "./terraform.tfstate" # file you want to upload
+#   source = "./vpc" # file you want to upload
 # }
