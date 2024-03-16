@@ -32,6 +32,6 @@ variable "tags" {
     type = map
     description = "hhh"
    }
-}            
+           
 
   
