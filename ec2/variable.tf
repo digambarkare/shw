@@ -1,7 +1,7 @@
 variable "profile" {
     default = "digambar"
     type = string
-    description = "here i am make my server"
+   
 }
 
 variable "region" {
