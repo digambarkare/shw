@@ -30,5 +30,5 @@ resource "aws_instance" "instance4_g" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_name
-    # tags = var.tags
+    tags = var.tags
 }
