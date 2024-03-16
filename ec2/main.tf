@@ -16,7 +16,9 @@ provider "aws" {
   profile                    = "digambar"
 }
 
-t
+terraform {
+  
+}
 #create instunce
 resource "aws_instance" "rohhi22" {
     ami = var.ami
