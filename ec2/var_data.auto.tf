@@ -5,4 +5,4 @@ key_name ="digambar"
 tags ={
     Name ="ubuntu"
     Enviorment = "testing"
-    Project =""
+    Project ="yz-project"
