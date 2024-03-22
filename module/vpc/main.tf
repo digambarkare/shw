@@ -13,8 +13,6 @@ provider "aws" {
     profile                    = "digambar"
   }
 
-
-}
  terraform {
    backend "s3" {
     bucket = "rajat-key-222"
