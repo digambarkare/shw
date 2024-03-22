@@ -1,4 +1,4 @@
-output "server_created" {
-    value = "yes created"
-}
+# output "server_created" {
+#     value = "yes created"
+# }
    
