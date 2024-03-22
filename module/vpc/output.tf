@@ -1,4 +1,4 @@
 output "ubuntu-server-created" {
-    value = "B"
+    value = "Boss"
   
 }
