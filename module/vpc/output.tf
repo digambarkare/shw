@@ -1,3 +1,3 @@
-output "ubuntu-server-crear="" {
+output "ubuntu-server-created"" {
   
 }
