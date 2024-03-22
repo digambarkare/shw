@@ -1,4 +1,4 @@
 variable "ami" {
-    
+    type =
   
 }
