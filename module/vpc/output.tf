@@ -1,3 +1,3 @@
-output """ {
+output "ubuntu-server-crear="" {
   
 }
