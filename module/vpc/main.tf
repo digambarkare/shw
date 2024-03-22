@@ -20,3 +20,7 @@ provider "aws" {
     dynamodb_table = "table3"
    }
  }
+
+
+
+ re
