@@ -24,6 +24,7 @@ provider "aws" {
 
 
  resource "aws_instance" "terraform_child" {
-    ami = var.am
+    ami = var.ami
+    in
    
  }
