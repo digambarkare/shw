@@ -14,6 +14,6 @@ provider "aws" {
  terraform {
    backend "s3" {
     bucket = "rajat-key-22"
-    region = ""
+    region = "us-east-1"
    }
  }
