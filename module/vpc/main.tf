@@ -15,6 +15,6 @@ provider "aws" {
    backend "s3" {
     bucket = "rajat-key-222"
     region = "us-east-1"
-    key = "d"
+    key = "digambar2"
    }
  }
