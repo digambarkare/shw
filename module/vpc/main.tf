@@ -23,6 +23,6 @@ provider "aws" {
 
 
 
- resource "aws_instance" "terraform_" {
+ resource "aws_instance" "terraform_child" {
    
  }
