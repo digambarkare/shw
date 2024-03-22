@@ -14,5 +14,5 @@ variable "key_name" {
 }
 
 variable"tag" {
-  ty
+  type = map
 }
