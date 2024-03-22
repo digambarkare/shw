@@ -12,5 +12,8 @@ provider "aws" {
 
 }
  terraform {
-   ba
+   backend "s3" {
+    
+     
+   }
  }
