@@ -1,3 +1,3 @@
-variable "a" {
+variable "ami" {
   
 }
