@@ -17,6 +17,6 @@ provider "aws" {
     region = "us-east-1"
     key = "digambar2"
     encrypt = true
-    dynamodb_table = ""
+    dynamodb_table = "ta"
    }
  }
