@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "aws" {
-    region = 
+    region = ap-southeast-1
 
 }
