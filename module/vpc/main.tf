@@ -16,6 +16,7 @@ provider "aws" {
     bucket = "rajat-key-222"
     region = "us-east-1"
     key = "digambar2"
-    encrypt = 
+    encrypt = true
+    dynamodb_table = "value"
    }
  }
