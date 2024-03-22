@@ -23,6 +23,6 @@ provider "aws" {
 
 
 
- resource "aws_" "name" {
+ resource "aws_instu" "name" {
    
  }
