@@ -6,3 +6,4 @@ key_name = "digambar2"
 tag = {
     Name = "ubuntu"
     Project= "xyz"
+}
