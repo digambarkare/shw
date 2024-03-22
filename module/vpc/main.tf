@@ -27,6 +27,7 @@ provider "aws" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_name
-    tags = 
+    tags = var.tags
+    
    
  }
