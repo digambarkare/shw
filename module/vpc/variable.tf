@@ -9,6 +9,6 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-    ty
+    type = srt
   
 }
