@@ -1,1 +1,2 @@
-ami = "value"
+# resource "aws_instance" "digu" {
+ami = ""
