@@ -5,4 +5,4 @@ instance_type = "t2.micro"
 key_name = "digambar2"
 tag = {
     Name = "ubuntu"
-    Pr
+    Project= "xyz"
