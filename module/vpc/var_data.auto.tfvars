@@ -1,1 +1,1 @@
-ami
+ami = "value"
