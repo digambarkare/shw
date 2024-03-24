@@ -15,7 +15,7 @@ provider "aws" {
   shared_credentials_files   =["/root/.aws/credentials"]
   profile                    = "digambar"
 }
-resource "aws_s3_bucket" "rohii" {
+resource "aws_s3_bucket" "digs-001" {
     bucket = "my-tf-test-bucket"
 
     tags = {
