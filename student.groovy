@@ -1,5 +1,6 @@
 //my pipeline
 pipeline {
+    
     stages {
         stage('pull') {
             steps {
