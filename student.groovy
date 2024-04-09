@@ -5,7 +5,8 @@ pipeline {
             steps {
                 git branch: 'main', credentialsId: 'qhh', url: 'https://github.com/digambarkare/shw.git'
                 echo 'pull'
-            }13.213.36.74
+                
+            }
         }
         stage('build') {
             steps {
