@@ -10,8 +10,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                
-                echo 'build done'
+             echo 'build done'
             }
         }
         stage('quality-test') {
