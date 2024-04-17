@@ -1,0 +1,4 @@
+FROM centos:7
+RUN yum update -y
+RUN yum install java openjdk -yum
+ADD https://dlcdn.apache.org/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100.tar.gz
