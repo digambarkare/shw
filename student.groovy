@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'main', credentialsId: 'qhh', url: 'https://github.com/digambarkare/shw.git'
+                git branch: 'main', credentialsId: 'tttttt', url: 'https://github.com/digambarkare/shw.git'
                 echo 'pull'
                 echo 'hi baby'
             }
